@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from Profile.geticons import some_function
 
 app = Flask(__name__)
 
@@ -90,3 +91,4 @@ def delete_city(city_name):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
